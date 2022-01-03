@@ -8,7 +8,7 @@ with open('data/rosalind_dna.txt', 'r') as input:
 # Create empty list
 nucleo_count = []
 
-# Append count of each nucleotide into nuc_count
+# Append count of each nucleotide into nucleo_count
 for nucleotide in ['A', 'C', 'G', 'T']:
 	nucleo_count.append(str(dna.count(nucleotide)))
 

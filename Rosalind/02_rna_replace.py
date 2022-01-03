@@ -9,7 +9,3 @@ with open('data/rosalind_rna.txt', 'r') as input:
 # Write output file with transcribed rna
 with open('output/q2_rna.txt', 'w') as output:
 	output.write(dna.replace('T', 'U'))
-
-
-
-
